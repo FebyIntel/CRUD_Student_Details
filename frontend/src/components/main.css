@@ -1,0 +1,61 @@
+/* src/components/main.css */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color:  rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Optional: blur effect for the background */
+}
+
+body {
+  background-image: url('../components/backdrop.jpeg'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Make sure the image covers the entire viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.create-button,
+.logout-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-button {
+  background-color: rgba(20, 41, 147, 0.551);
+  color: white;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
+
+.logout-button {
+  background-color: rgba(147, 20, 35, 0.551);
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}

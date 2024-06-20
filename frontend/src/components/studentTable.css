@@ -1,0 +1,61 @@
+/* src/components/studentTable.css */
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .students-table th,
+  .students-table td {
+    padding: 10px;
+    border: 1px ;
+    text-align: left;
+  }
+
+  table th:nth-child(1), table td:nth-child(1),
+  table th:nth-child(2), table td:nth-child(2),
+  table th:nth-child(3), table td:nth-child(3) {
+    width: 27%; /* Equal width for name, email, and department */
+  }
+  
+  table th:nth-child(4), table td:nth-child(4) {
+    width: 30%; /* Smaller width for actions */
+  }
+  
+  .students-table th {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .students-table tr {
+    background-color:  rgba(255, 255, 255, 0.3);
+  }
+  
+  .students-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.332);
+    color: black;
+  }
+
+  
+  .edit-button:hover {
+    background-color: #e0a800;
+    color: white;
+  }
+  
+
+  
+  .delete-button:hover {
+    background-color: #c82333;
+    color: white;
+  }
+  
